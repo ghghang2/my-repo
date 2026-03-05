@@ -128,7 +128,7 @@ def main() -> None:
                 "--n-gpu-layers", str(N_GPU_LAYERS),
                 "--flash-attn", "1",
                 "--batch-size", "2048",
-                "--ubatch-size", "2048",
+                "--ubatch-size", "1024",
                 "--mlock",
                 "--metrics",
             ],
